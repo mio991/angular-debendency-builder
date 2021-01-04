@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "with-dependencies": {
+      "implementation": "./dist",
+      "schema": "./src/schema.json",
+      "description": "Build Dependencies before starting another build task"
+    }
+  }
+}

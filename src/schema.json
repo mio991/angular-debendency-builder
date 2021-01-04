@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "type":"object",
+    "properties": {
+        "dependsOn":{
+            "type":"array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "project": {
+                    "type": "string"
+                    },
+                    "target": {
+                    "type": "string"
+                    },
+                    "configuration": {
+                    "type": "string"
+                    }
+                },
+                "required": [
+                    "project",
+                    "target"
+                ]
+            }
+        },
+        "exec":{
+            "type": "object",
+            "properties": {
+                "project": {
+                "type": "string"
+                },
+                "target": {
+                "type": "string"
+                },
+                "configuration": {
+                "type": "string"
+                }
+            },
+            "required": [
+                "project",
+                "target"
+            ]
+        }
+    }
+}
