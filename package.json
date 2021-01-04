@@ -15,6 +15,7 @@
   "builders": "builders.json",
   "author": "mio991",
   "license": "ISC",
+  "repository": "https://github.com/mio991/angular-debendency-builder",
   "devDependencies": {
     "typescript": "^4.1.3"
   },
